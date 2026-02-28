@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cyber Labs | Ben Duron</title>
+
+  <!-- Reuse the same theme variables as index.html -->
+  <style>
+    :root{
+      --bg:#0f172a; --card:#111c33; --text:#e5e7eb; --muted:#a8b3cf; --border:#23304e; --link:#7dd3fc; --tagbg:#0b1224;
+    }
+    body{font-family:Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px;line-height:1.5;background:var(--bg);color:var(--text)}
+    a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+    .muted{color:var(--muted)}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;margin:14px 0;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    h1{margin:0 0 6px 0} h2{margin:0 0 8px 0}
+    ul{margin:8px 0 0 18px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Cyber Labs</h1>
+    <div class="muted"><a href="index.html">← Back to home</a></div>
+  </div>
+
+  <div class="card">
+    <h2>Incident Investigation & Forensics</h2>
+    <ul>
+      <li><a href="labs/network-breach.html"><strong>Network Breach Analysis Lab</strong></a> — IOC identification and host/network investigation</li>
+      <li><a href="labs/memory-forensics.html"><strong>Memory Forensics Lab</strong></a> — Volatility-based memory analysis and malware artifacts</li>
+      <li><a href="labs/attack-analysis.html"><strong>Attack Analysis Lab</strong></a> — TTP analysis, incident narrative, mitigations</li>
+      <li><a href="labs/event-analysis.html"><strong>Event Analysis Lab</strong></a> — Packet-level investigation (HTTP/DNS/DHCP/FTP)</li>
+    </ul>
+  </div>
+</body>
+</html>
