@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Network Breach Analysis Lab | Ben Duron</title>
+  <style>
+    :root{--bg:#0f172a;--card:#111c33;--text:#e5e7eb;--muted:#a8b3cf;--border:#23304e;--link:#7dd3fc}
+    body{font-family:Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px;line-height:1.55;background:var(--bg);color:var(--text)}
+    a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+    .muted{color:var(--muted)}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;margin:14px 0;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    ul{margin:8px 0 0 18px}
+    code{background:#0b1224;border:1px solid var(--border);padding:2px 6px;border-radius:8px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="muted"><a href="../labs.html">← Back to Labs</a> • <a href="../index.html">Home</a></div>
+    <h1>Network Breach Analysis Lab</h1>
+    <p class="muted">Simulated incident response investigation of a compromised Windows host.</p>
+  </div>
+
+  <div class="card">
+    <h2>Goal</h2>
+    <p>Investigate a suspected compromise by identifying indicators of compromise (IOCs), suspicious processes, and evidence of attacker activity.</p>
+  </div>
+
+  <div class="card">
+    <h2>Tools & Techniques</h2>
+    <ul>
+      <li>Host investigation (process review, artifact review)</li>
+      <li>Network verification (connections/communications)</li>
+      <li>Documentation and escalation-style reporting</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>What I Did</h2>
+    <ul>
+      <li>Collected evidence from the host and reviewed suspicious execution artifacts.</li>
+      <li>Identified potential IOCs and abnormal behavior consistent with compromise.</li>
+      <li>Validated findings using network/process context and documented conclusions.</li>
+    </ul>
+    <p class="muted">Next: add 2–3 screenshots (process tree, IOC list, key commands) and a short “Key Findings” section.</p>
+  </div>
+</body>
+</html>
